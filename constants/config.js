@@ -4,6 +4,6 @@ const corsOptions = {
   credentials: true,
 };
 
-const STARKTALK_TOKEN = "Starktalk-token";
+const STARKTALK_TOKEN = "starktalk-token";
 
 export { corsOptions, STARKTALK_TOKEN };

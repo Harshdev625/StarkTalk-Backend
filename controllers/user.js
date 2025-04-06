@@ -69,7 +69,7 @@ const getMyProfile = TryCatch(async (req, res, next) => {
 const logout = TryCatch(async (req, res) => {
   return res
     .status(200)
-    .cookie("Starktalk-token", "", { ...cookieOptions, maxAge: 0 })
+    .cookie("starktalk-token", "", { ...cookieOptions, maxAge: 0 })
     .json({
       success: true,
       message: "Logged out successfully",
